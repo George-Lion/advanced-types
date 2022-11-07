@@ -1,12 +1,12 @@
 //las ventajas del enum es que es una forma mas directa de saber cuales son las opciones que puedes asignar en un a variable.
 
-enum ROLES {
+export enum ROLES {
   ADMIN = "admin",
   SELLER = "seller",
   CUSTOMER = "customer"
 }
 
-type User = {
+export type User = {
   username: string;
   role: ROLES;
 }
